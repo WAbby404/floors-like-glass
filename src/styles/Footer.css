@@ -1,0 +1,206 @@
+/* Footer Wrapper */
+.footer--spacing{
+    margin: 25px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    color: var(--main-brown);
+}
+
+/* Footer Nav */
+
+.footer--nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.footer--nav a{
+    font-weight: var(--bold-weight);
+    color: var(--main-brown);
+    transition: 0.3s;
+}
+
+.footer--nav a:hover{
+    color: var(--light-brown);
+}
+
+.footer--nav img{
+    width: 300px;
+}
+
+.footer--nav--small{
+    display:none;
+}
+
+/* Footer Info */
+
+.footer--flex{
+    display:grid;
+    width: 95%;
+    grid-template-columns: repeat( 3, 1fr );
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto 0 auto;
+}
+
+.footer--info{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer--info .title{
+    margin: 15px 0;
+}
+
+.footer--socials--title{
+    text-align: center;
+    font-size: 16px;
+    font-weight: var(--bold-weight);
+    margin: 10px 0;
+}
+
+.footer--socials{
+    display:flex;
+    gap: 5%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.footer--social{
+    color: var(--main-brown);
+    transition: 0.3s;
+}
+
+.footer--social:hover{
+    color: var(--light-brown);
+}
+
+/* Footer Hours */
+
+.footer--hours{
+    margin: 0 20% 30px 20%;
+    display:flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.footer--hours--title{
+    font-size: 20px;
+    font-weight: var(--bold-weight);
+}
+
+.footer--hours--bold{
+    font-weight: var(--bold-weight);
+}
+
+.footer--hours h5{
+    margin-left: 15px;
+}
+
+/* Copyright Line */
+
+.copyright{
+    background-color: #272726;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.copyright p {
+    color:#bdb9b5;
+    font-size: 13px;
+}
+
+.copyright--link{
+    color:#bdb9b5;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+@media (max-width:1200px){
+    .footer--nav img{
+        width: 200px;
+    }
+
+    .footer--nav a{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 800px){
+    .footer--nav img{
+        width: 150px;
+    }
+    .footer--nav a{
+        font-size: 10px;
+    }
+
+    .footer--flex{
+        display:grid;
+        width: 95%;
+        grid-template-columns: repeat( 3, 1fr );
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px auto 0 auto;
+        gap: 2%;
+    }
+
+    .footer--hours{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+}
+
+@media (max-width: 600px){
+    .footer--nav{
+        display: none;
+    }
+
+    .footer--nav--small{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer--nav--small img{
+        width: 275px;
+    }
+
+    .footer--flex{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .footer--info{
+        order: 3;
+    }
+    
+    .footer--socials--main{
+        order: 1;
+    }
+
+    .footer--hours{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        order: 2;
+    }
+
+    .footer--hours h5{
+        margin-left: 0;
+    }
+    
+    .copyright p{
+        margin: 0 auto;
+        width: 90%;
+        font-size: 11px;
+    }
+
+    .copyright--link{
+        font-size: 11px;
+    }
+    
+}

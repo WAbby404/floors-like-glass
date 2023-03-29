@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: var(--main-weight);
+    font-display: swap;
+}
+/* Main general styling */
+
+/* Brand Colors & Styles */
+:root{
+    --main-green: #276427;
+    --light-green: #1c9b1c;
+
+    --main-brown: #432D20;
+    --light-brown: rgb(189, 146, 90);
+    --lighter-brown: rgb(216, 193, 162);
+
+    --main-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
+    --light-shadow: 0 4px 5px 0 rgba(0,0,0,0.25);
+
+    --border-radius: 4px;
+
+    --main-weight: 500;
+    --medium-weight: 600;
+    --bold-weight: 700;
+    --boldest-weight: 800;
+}
+
+/* General Wrapper Styling */
+.wrapper{
+    margin: 0 20%;
+}
+
+.inner--wrapper{
+    margin: 0 5%;
+    color: var(--main-brown);
+}
+
+.inner--wrapper--margin{
+    margin: 30px auto;
+}
+
+/* General Button Styling */
+
+.btn{ 
+    color: white;
+    background-color: var(--main-green);
+    border: none;
+    padding: .75em .75em;
+    border-radius: var(--border-radius);
+    box-shadow: var(--main-shadow);
+    transition: 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover, .btn:focus{
+    background-color: var(--light-green);
+}
+
+/* General Titles Styling */
+
+.title{
+    margin: 50px 0 30px 0;
+    font-size: 30px;
+    font-weight: var(--bold-weight);
+    color: var(--main-brown);
+}
+
+.subtitle{
+    font-size: 20px;
+    font-weight: var(--medium-weight);
+    font-family: 'Playfair Display', serif;
+    margin: 10px 0;
+    font-display: swap;
+}
+
+/* Visual & Text Styling */
+
+.hr{
+    height: 2px;
+    width: 50%;
+    margin: 20px auto 30px auto;
+    background-color: rgb(240, 240, 240);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Square Image Links */
+.square--flex{
+    display:flex;
+    justify-content: center;
+}
+
+.square--link{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius);
+    font-weight: var(--bold-weight);
+    box-shadow: var(--main-shadow);
+    color:white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+/* General Responsive */
+
+@media (max-width: 1500px){
+    .wrapper{
+        margin: 0 7%;
+    }
+}
+
+/* Font Faces */
+
+  /* playfair-display-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/playfair-display-v30-latin-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/playfair-display-v30-latin-800.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* plus-jakarta-sans-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/plus-jakarta-sans-v3-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/plus-jakarta-sans-v3-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* plus-jakarta-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/plus-jakarta-sans-v3-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/plus-jakarta-sans-v3-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* plus-jakarta-sans-700 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/plus-jakarta-sans-v3-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/plus-jakarta-sans-v3-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }

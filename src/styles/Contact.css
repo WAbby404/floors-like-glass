@@ -1,0 +1,98 @@
+/* Contact Flex Google map + Info */
+.contact--info--map{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* Contact Info */
+
+.contact--info{
+    width: 500px;
+    display:flex;
+    flex-direction: column;
+    gap: 5%;
+    color: var(--main-brown);
+}
+
+.contact--subtitle{
+    font-weight: var(--bold-weight);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact--icon--text{
+    display:flex;
+    gap: 10px;
+}
+
+.contact--map{
+    width: 430px;
+}
+
+/* Contact Hours */
+
+.contact--icon--text--hours{
+    display:flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.contact--hours--info{
+    display:flex;
+    gap: 5%;
+    margin: 0 30px;
+}
+
+.hour--titles{
+    font-weight: var(--bold-weight);
+}
+
+/* Contact Socials */
+
+.contact--socials{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 80px 0;
+}
+
+.contact--social{
+    display:flex;
+    gap: 10px;
+    transition: 0.3s;
+    align-items: center;
+}
+
+/* Responsive */
+@media (max-width: 900px){
+    .contact--info--map{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .contact--socials{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        margin: 30px 0 30px 0;
+    }
+
+    .contact--info{
+        gap: 10px;
+    }
+    
+}
+
+@media (max-width: 600px){
+    .contact--info{
+        width: 90%;
+    }
+
+    .contact--map{
+        width: 270px;
+    }
+
+}

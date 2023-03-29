@@ -1,0 +1,135 @@
+/* Hero Background Image */
+.hero{
+    background-image: url('../assets/hero.webp');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--lighter-brown);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.hero--title{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25),
+                0px 2px 25px rgba(0,0,0,0.85);
+    font-weight: var(--bold-weight);
+}
+
+/* Hero Cards */
+.hero--card--container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2%;
+    top: -100px;
+}
+
+.hero--card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    width: 100%;
+    box-shadow: var(--light-shadow);
+    text-align: center;
+    color: var(--main-brown);
+}
+
+.card--title{
+    font-weight: var(--bold-weight);
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.hero--card--img-container{
+    max-height: 200px;
+    width: 100%;
+}
+
+.hero--card p {
+    height: 100%;
+}
+
+.hero--card--img-container img {
+    height: 200px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: var(--border-radius);
+}
+
+.hero--card--btn{
+    justify-content: flex-end;
+}
+
+/* Responsive */
+@media (max-width:1500px){
+    .hero--title{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1200px){
+    .hero{
+        padding: 80px 0;
+        height: 400px;
+        gap: 20px;
+    }
+
+    .hero--card--container{
+        top: -80px;
+    }
+
+    .hero--btn{
+        font-size: 13px;
+    }
+
+    .hero--card p {
+        font-size: 14px;
+    }
+
+    .hero--card--img-container{
+        width: 100%;
+        height: 100px;
+        background-color: var(--main-brown);
+    }
+
+    .hero--card--img-container img {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .hero--card--container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 800px){
+    .hero--title{
+        font-size: 2.5rem;
+        padding: 2% 0;
+    }
+}
+
+@media (max-width: 600px){
+    .hero--title{
+        font-size: 2rem;
+        padding: 1% 0;
+    }
+
+    .hero--card p {
+        font-size: 13px;
+    }
+}

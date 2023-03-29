@@ -1,0 +1,46 @@
+/* Background */
+.action--background{
+    background-image: url('../assets/calltoaction.webp');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.action--flex{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Text */
+.action--title{
+    color: white !important;
+    width: 75%;
+    text-shadow: var(--main-shadow);
+}
+
+.action--number{
+    color: white;
+    font-size: 20px;
+    font-weight: var(--medium-weight);
+}
+
+/* Responsive */
+@media (max-width: 800px){
+
+    .action--background{
+        padding: 40px 0;
+    }
+
+    .action--number{
+        font-size: 16px;
+    }
+
+    .action--title{
+        width: 90%;
+        font-size: 18px !important;
+    }
+}

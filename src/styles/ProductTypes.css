@@ -1,0 +1,56 @@
+/* Product Type Background Image */
+.products--type--img{
+    background-size: cover;
+    background-position: center;
+    background-color: var(--lighter-brown);
+}
+
+/* Product Type Title */
+.products--type--title{
+    color: white;
+    padding: 50px 0;
+    font-weight: var(--boldest-weight);
+    font-size: 25px;
+}
+
+/* Product Intro Paragraph */
+.products--type--p{
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.products--type--p p{
+    font-size: 18px;
+}
+
+/* Product Type Brands */
+.products--type--brands--wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 100px 0;
+}
+
+.products--type--btn{
+    margin: 0 auto;
+}
+
+.products--type--brands{
+    margin: 50px 0;
+    display:grid;
+    grid-template-columns: repeat( auto-fit, minmax(150px, 250px));
+    justify-content: center;
+    gap: 10px;
+}
+
+.products--type--brand{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: var(--border-radius);
+    box-shadow: var(--light-shadow);
+    transition: 0.3s;
+}
+
+.products--type--brand:hover{
+    transform: scale(1.1);
+}
