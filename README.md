@@ -1,4 +1,4 @@
-#Floors Like Glass
+# Floors Like Glass
 <img src="public/Github Banner.png" alt="Floor Like Glass Logo" width="800"/>
 A Flooring Contractor Site built for client based in New Hampton, NY
 Features include: <br/>
