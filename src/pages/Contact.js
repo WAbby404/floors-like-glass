@@ -23,7 +23,7 @@ function Contact(props) {
                             </li>
                             <li className="contact--icon--text">
                                 <AiFillPhone size="20px" color="#432D20"/>
-                                <p>(845) 294-9466</p>
+                                <a className="contact--link underline" href="tel:845-294-9466">(845) 294-9466</a>
                             </li>
                             <li className="contact--icon--text">
                                 <MdEmail size="20px" color="#432D20"/>

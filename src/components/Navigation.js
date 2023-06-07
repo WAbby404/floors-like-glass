@@ -26,9 +26,7 @@ function Navigation() {
                             <HiLocationMarker/>
                             <p>Visit us - New Hampton, NY</p>
                         </div>
-                        <p className="nav--flex--location">
-                            (845) 294 - 9466
-                        </p>
+                        <a className="nav--flex--location underline" href="tel:845-294-9466">(845) 294 - 9466</a>
                     </div>
                 </div>
                 <div className="nav--flex--main">

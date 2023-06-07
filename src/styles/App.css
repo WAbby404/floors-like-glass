@@ -91,6 +91,10 @@ a {
     text-decoration: none;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 /* Square Image Links */
 .square--flex{
     display:flex;

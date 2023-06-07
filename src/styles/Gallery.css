@@ -1,6 +1,7 @@
 /* Wrapper */
 .gallery--wrapper{
-    margin-bottom: 100px;
+    margin: 0 50px 100px 50px;
+    /* margin-bottom: 100px; */
 }
 
 /* Title */

@@ -29,6 +29,10 @@
     width: 430px;
 }
 
+.contact--link{
+    color: var(--main-brown);
+}
+
 /* Contact Hours */
 
 .contact--icon--text--hours{

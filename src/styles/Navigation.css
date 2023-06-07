@@ -23,6 +23,7 @@
 
 .nav--flex--location{
     display:flex;
+    color: var(--main-brown);
 }
 
 /* Main Nav */
@@ -232,5 +233,9 @@
 
     .dropdown--menu a {
         width: 30%;
-     }
+    }
+
+    .nav--flex--location{
+        font-size: 14px;
+    }
 }
