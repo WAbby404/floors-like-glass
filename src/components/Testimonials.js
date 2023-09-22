@@ -10,7 +10,7 @@ import testimonial3 from '../assets/testimonial3.webp';
 import testimonial4 from '../assets/testimonial4.webp';
 import testimonial5 from '../assets/testimonial5.webp';
 import testimonial6 from '../assets/testimonial6.webp';
-import awards from '../assets/awards.webp';
+import awards from '../assets/awards-2023-update.webp';
 import awards2 from '../assets/award.webp';
 
 // List of testimonials & awards from Dawn
@@ -24,7 +24,7 @@ const testimonialsList = [{img:testimonial1, text:'"I always choose Floors Like 
 {img:testimonial5, text:'"You have done my floors every time since I moved in and even though this is only the first coat, they already look amazing as always. You guys are truly the best. Thank you Dawn!"', byline:'-Mary | New Hampton, NY', alt:'Warm red hardwood flooring with edge detailing'},
 {img:testimonial6, text:'“Thank you for another excellent job. We appreciate the good work!”', byline:'-D.B. | Highland Falls, NY', alt:'Light brown flooring'},
 {text:'“Just wanted to tell you how absolutely thrilled we are with our refinished floors, they are gorgeous. You and your entire staff were a pleasure to work with. It was wonderful to be able to try the colors on the actual floor, and the cherry that we selected was beautiful.”', byline:'-L.L. | Sussex, NJ', order: 2},
-{img:awards, text:'Won first place in the Times Herald-Record Readers’ Choice contest. Community voted and selected as the best Flooring Store from our local community for 7 years!', byline:'', order: 2, alt: 'Times Herald-Record Readers’ Choice contest awards for the years 2013, 2014, 2015, 2017, 2018, 2019 and 2020'},
+{img:awards, text:'Won first place in the Times Herald-Record Readers’ Choice contest. Community voted and selected as the best Flooring Store from our local community for 8 years, including 2023!', byline:'', order: 2, alt: 'Times Herald-Record Readers’ Choice contest awards for the years 2013, 2014, 2015, 2017, 2018, 2019 and 2020'},
 {img:awards2, text:'Featured in Gordon Gilberts ‘Transparent Architecture’ where all flooring was done by Floors Like Glass.', byline:'', alt: 'Gordon Gilberts Transparent Architecture'},];
 
 function Testimonials(props) {
